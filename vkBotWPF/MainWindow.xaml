@@ -1,0 +1,19 @@
+﻿<Window x:Class="vkBotWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vkBotWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="266.25" Width="430.625">
+    <Grid>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
+        <TextBox x:Name="tbLogin" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="d.bikowq@yandex.ru" ToolTip="Логин" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbPass" HorizontalAlignment="Left" Height="23" Margin="10,40,0,0" TextWrapping="Wrap" Text="andyuk121Nfhtkrf@" ToolTip="Пароль" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="checkbox2" Content="2-ух факторная" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="98" Margin="164,10,0,0" VerticalAlignment="Top" Width="243" Source=""/>
+        <Button x:Name="btnConfirm" Content="Подтвердить" HorizontalAlignment="Left" Margin="89,88,0,0" VerticalAlignment="Top" Width="75" Click="btnConfirm_Click"/>
+        <TextBox x:Name="capthaKey" HorizontalAlignment="Left" Height="23" Margin="84,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
